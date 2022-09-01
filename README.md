@@ -25,11 +25,12 @@ If you have completed above installations follow below:
 7. If installed properly, next thing is to create .env file
 	* You can copy file .env.example and remove the '.example'
 8. Create APP_KEY in .env by running this command in CLI:  ``` php artisan key:generate ```
-9. Now, in order for the app to properly work locally we need to run these:
+9. Run migrations of database table in CLI: ``` php artisan migration ```
+10. Now, in order for the app to properly work locally we need to run these:
 	* a. enter command in CLI: ``` php artisan serve ```
 	* b. open another CLI with the same location and enter command: ``` npm run dev ```
 	* c. run mailhog app by clicking .exe file, it should open a CLI 
 	      - Open your browser and check url depending on your port. (In my case, ``` localhost:8025 ```)
-10. If you have done everything correctly above, you can now try the app (In my case, ``` localhost:8000 ```)
+11. If you have done everything correctly above, you can now try the app (In my case, ``` localhost:8000 ```)
 
 
